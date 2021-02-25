@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../images/img.png);
+    background-position: center;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__title {
+    color: #262626;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+nav {
+    width: 50%;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+.nav__list .nav__link:hover {
+    text-decoration: overline;
+    text-decoration-color: #ff6033;
+}
