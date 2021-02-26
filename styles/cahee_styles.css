@@ -7,46 +7,51 @@
     padding: 0;
 }
 
-body {
+.page {
     font-family: 'Raleway', sans-serif;
 
+
+
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #262626;
-}
 
 .top-section {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../images/img.png);
     background-position: center;
-    height: 1100px;
+    height: 720px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-header {
+.header {
     width: 80vw;
+    min-width: 740px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 }
+
+.logo {
+    display: flex;
+
+}
+
+
 
 .logo__title {
     color: #262626;
     font-family: Pacifico;
     font-size: 50px;
     font-weight: 400;
+
 }
 
-nav {
+.nav {
     width: 50%;
 }
 
@@ -56,11 +61,89 @@ nav {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
+    list-style-type: none;
+
 
 }
 
+.nav__link {
+    text-decoration: none;
+    color: #262626;
+    padding: 0 10px;
+}
 
 .nav__list .nav__link:hover {
     text-decoration: overline;
     text-decoration-color: #ff6033;
+}
+
+.top-section__main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 50%;
+    justify-content: center;
+}
+
+.title-wrap {
+    width: 40%;
+
+
+}
+
+.title__heading {
+    color: #262626;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.title__text {
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 32px;
+}
+
+.title__link {
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff6033;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.middle-section {
+    display: flex;
+    background-color: #00c4c4;
+    width: 100vw;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    width: 400px;
+}
+
+
+.title__middle {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+
+}
+
+.middle__text {
+    color: #fff;
+    width: 499px;
+    height: 188px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+
 }

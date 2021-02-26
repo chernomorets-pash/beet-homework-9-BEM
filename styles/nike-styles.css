@@ -1,0 +1,49 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/background_nike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nike-wrapp {
+    display: flex;
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+}
+
+
+.nike__shoe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nike__logo {
+    width: 65px;
+    height: 33px;
+    padding: 24px;
+}
+
+.nike__shoe__photo {
+    width: 329px;
+    height: 159px;
+    align-self: flex-end;
+
+}
+
+.nike__list {
+    display: flex;
+    width: 75px;
+}
+
+
+.nike__info {
+    width: 50%;
+}
