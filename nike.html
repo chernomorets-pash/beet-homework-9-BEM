@@ -15,18 +15,29 @@
             <img class="nike__logo" src="./images/logo_nike.png" alt="logo">
             <img class="nike__shoe__photo" src="./images/Nike-SB-Stefan-Janoski-Max.png" alt="nike shoe">
             <div class="nike__selector">
-                <ul class="nike__list">
-                    <li class="item item__color__black"> </li>
-                    <li class="item item__color__white"></li>
-                    <li class="item item__color__red"></li>
-                    <li class="item item__color__blue"></li>
-                </ul>
+                <div class="selector__item color__gray selected"></div>
+                <div class="selector__item color__white"></div>
+                <div class="selector__item color__red "></div>
+                <div class="selector__item color__blue"></div>
             </div>
         </div>
-        <div class="nike__info">
+        <div class=" nike__info">
             <h1 class="info__title">Nike SB Stefan
                 Janoski Max </h1>
-            <h3 class="info__title__small">Unisex Skateboarding Shoe (Men's Sizing)</h3>
+            <h3 class="info__title__small">Unisex Skateboarding Shoe</h3>
+            <img class="info__stars" src="./images/stars.png" alt="">
+
+            <form action="#" method="get" class="order__form">
+                <input class="order" list="sizes" name="size" id="size" placeholder="Size">
+                <datalist id="sizes">
+                    <option value="34">
+                    <option value="43.1">
+                    <option value="45">
+                </datalist>
+                <input class="order" type="number" list="qty" name="qty" id="qty" placeholder="Qty">
+                <input class="order__submit" type="submit" value="Add to card">
+            </form>
+
         </div>
     </section>
 </body>
