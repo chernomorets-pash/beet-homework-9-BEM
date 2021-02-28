@@ -21,7 +21,7 @@
     align-items: center;
     background-image: url(../images/img.png);
     background-position: center;
-    height: 720px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -119,7 +119,7 @@
     display: flex;
     background-color: #00c4c4;
     width: 100vw;
-    height: 700px;
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -146,4 +146,118 @@
     font-weight: 300;
     line-height: 27px;
 
+}
+
+/* Blog section */
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b07cf7;
+    width: 100vw;
+    height: 100vh;
+    max-height: 864px;
+}
+
+.blog__heading--2 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.blog__text {
+    width: 563px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.blog__cards {
+    display: flex;
+
+
+}
+
+.blog__cards__item {
+
+    width: 370px;
+    height: 310px;
+    margin: 15px;
+    background-position: center;
+
+}
+
+.card__item__one {
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.18), rgb(0, 0, 0)),
+        url(../images/green_smothie.png);
+}
+
+.card__item__two {
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.18), rgb(0, 0, 0)),
+        url(../images/been_soup.png);
+}
+
+.card__item__three {
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.18), rgb(0, 0, 0)),
+        url(../images/berry_in_blue.png);
+}
+
+
+.blog__cards__item__date {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #26262670;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    margin: 30px;
+    ]
+}
+
+.blog__cards__item__heading--3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 127px 0 15px 30px;
+
+}
+
+.blog__cards__item__name {
+    margin: 0 0 30px 30px;
+    font-family: "Raleway - Light";
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #8a8a8a;
+}
+
+.blog__cards__button {
+    text-decoration: none;
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 50px;
 }
