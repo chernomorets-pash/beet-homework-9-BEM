@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -276,12 +277,39 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background-color: #acabab;
+    height: 720px;
+
 }
 
-.who-we-are__heading {}
+.who-we-are__heading {
 
-.who-we-are__text {}
+    color: #3c3c3c;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+}
+
+.separator {
+    /* Style for "Rectangle" */
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    opacity: 0.3;
+    margin: 20px 0 40px 0;
+}
+
+.who-we-are__text {
+    width: 561px;
+    color: #3c3c3c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+
+}
 
 .who-we-are__cards {
     display: flex;
@@ -290,6 +318,7 @@
 }
 
 .who-we-are__avatar {
+    position: relative;
     width: 270px;
     height: 320px;
     margin: 15px;
@@ -300,13 +329,71 @@
     justify-content: flex-end;
 }
 
-.avatar--1 {}
+
+
+.avatar--1 {
+    background-image: url(../images/avatar_1.png);
+}
+
+.avatar__back {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 53px;
+    width: 269px;
+    height: 270px;
+    background-color: #00aed9;
+    opacity: 0.9;
+
+}
+
+.who-we-are__avatar:hover .back--1 {
+    display: flex;
+}
+
+.who-we-are__avatar:hover .back--2 {
+    display: flex;
+}
 
 .avatar--2 {
     background-image: url(../images/man_avatar.png);
 
 }
 
-.avatar--3 {}
+.avatar--3 {
+    background-image: url(../images/woman_red.png);
 
-.avatar--4 {}
+}
+
+.avatar--4 {
+    background-image: url(../images/woman_white.png);
+}
+
+.avatar__name {
+    color: #282528;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.avatar__position {
+    font-family: "Lato";
+    font-weight: 300;
+    color: #646464;
+}
+
+
+
+/* social media links */
+
+.social-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.342);
+    margin: 2px;
+
+}
