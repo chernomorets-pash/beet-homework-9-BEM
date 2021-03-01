@@ -356,6 +356,14 @@
     display: flex;
 }
 
+.who-we-are__avatar:hover .back--3 {
+    display: flex;
+}
+
+.who-we-are__avatar:hover .back--4 {
+    display: flex;
+}
+
 .avatar--2 {
     background-image: url(../images/man_avatar.png);
 
