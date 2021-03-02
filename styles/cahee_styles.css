@@ -265,7 +265,20 @@
     text-transform: uppercase;
     padding-top: 15px;
     margin-top: 50px;
+    /* EFFECTS */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transition: width linear 1s, border-bottom-right-radius 0.5s 1s ease-in-out;
 }
+
+.blog__cards__button:hover {
+    background-color: #f40b1e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.756);
+    width: 300px;
+    border-bottom-right-radius: 20px;
+
+}
+
 
 
 
@@ -336,7 +349,8 @@
 }
 
 .avatar__back {
-    display: none;
+    visibility: hidden;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -345,23 +359,33 @@
     height: 270px;
     background-color: #00aed9;
     opacity: 0.9;
-
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .who-we-are__avatar:hover .back--1 {
-    display: flex;
+    visibility: visible;
+    background-color: #00ccff;
+    opacity: 1;
+
 }
 
 .who-we-are__avatar:hover .back--2 {
-    display: flex;
+    visibility: visible;
+    background-color: #00ccff;
+    opacity: 1;
 }
 
 .who-we-are__avatar:hover .back--3 {
-    display: flex;
+    visibility: visible;
+    background-color: #00ccff;
+    opacity: 1;
 }
 
 .who-we-are__avatar:hover .back--4 {
-    display: flex;
+    visibility: visible;
+    background-color: #00ccff;
+    opacity: 1;
 }
 
 .avatar--2 {
