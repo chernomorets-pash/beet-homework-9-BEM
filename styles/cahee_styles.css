@@ -84,6 +84,7 @@
     width: 80vw;
     height: 50%;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .title-wrap {
@@ -116,6 +117,9 @@
     text-transform: uppercase;
 }
 
+.top-section__scroll {
+    margin-bottom: 30px;
+}
 
 /* Middle section About us */
 
